@@ -28,10 +28,10 @@ const CallNow = () => { // Functional component for CallNow button
 
     return (
         <>
-            <a href="tel:7289000959" rel='tel' id='Call_Now_btn' className={isButtonVisible ? 'visible' : ''}>
+            <a href="tel:7289000959" id='Call_Now_btn' rel='tel:7289000959' className={isButtonVisible ? 'visible' : ''}>
                 <BiSolidPhoneCall />&nbsp;&nbsp;&nbsp;&nbsp;Call Now
             </a>
-            <a onClick={whatsapp} href="https://wa.me/917289000959" target="_blank" aria-label="This is mount forest whatsapp" title="Mountforest whatsapp" className={`whatsapp_icon ${isButtonVisible ? 'visible' : ''}`}>
+            <a onClick={whatsapp} href="https://wa.me/917289000959" target="_blank" ref="https://wa.me/917289000959" aria-label="This is mount forest whatsapp" title="Mountforest whatsapp" className={`whatsapp_icon ${isButtonVisible ? 'visible' : ''}`}>
                 <FaWhatsapp />
             </a>
         </>
