@@ -71,10 +71,10 @@ const Footer = () => { // Functional component for rendering footer section
         <Row>{/* Row for social media icons */}
           <Col>{/* Column for social media icons */}
             <ul id='Footer_Soical_Icon_container'>{/* Unordered list for social media icons */}
-              <li><a target="_blank" title="facebook" aria-label="The Mountforest facebook icon link" href="https://www.facebook.com/mountforestpromoters"><BsFacebook/></a></li>{/* Facebook icon */}
-              <li><a target="_blank" title="instagram" aria-label="The Mountforest instagram icon link" href="https://www.instagram.com/mount_forest_homes/"><AiFillInstagram/></a></li>{/* Instagram icon */}
-              <li><a target="_blank" title="linkedin" aria-label="The Mountforest linkedin icon link" href="https://www.linkedin.com/company/mountforest-promoters-developer-opc-pvt-ltd/"><FaLinkedin/></a></li>{/* LinkedIn icon */}
-              <li><a target="_blank" title="youtube" aria-label="The Mountforest youtube icon link" href="https://www.youtube.com/@Mountforest_Promoters"><FaYoutube/></a></li>{/* YouTube icon */}
+              <li><a target="_blank" title="facebook" rel="https://www.facebook.com/mountforestpromoters" aria-label="The Mountforest facebook icon link" href="https://www.facebook.com/mountforestpromoters"><BsFacebook/></a></li>{/* Facebook icon */}
+              <li><a target="_blank" title="instagram" rel="https://www.instagram.com/mount_forest_homes/" aria-label="The Mountforest instagram icon link" href="https://www.instagram.com/mount_forest_homes/"><AiFillInstagram/></a></li>{/* Instagram icon */}
+              <li><a target="_blank" title="linkedin" rel="https://www.linkedin.com/company/mountforest-promoters-developer-opc-pvt-ltd/" aria-label="The Mountforest linkedin icon link" href="https://www.linkedin.com/company/mountforest-promoters-developer-opc-pvt-ltd/"><FaLinkedin/></a></li>{/* LinkedIn icon */}
+              <li><a target="_blank" title="youtube" rel="https://www.youtube.com/@Mountforest_Promoters" aria-label="The Mountforest youtube icon link" href="https://www.youtube.com/@Mountforest_Promoters"><FaYoutube/></a></li>{/* YouTube icon */}
             </ul>
           </Col>
         </Row> 
