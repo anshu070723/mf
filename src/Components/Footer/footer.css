@@ -1,0 +1,90 @@
+.Footer_container{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 5rem;
+    padding: 2rem 10%;
+    width: 100%;
+}
+.Footer_logo{
+    width: 10rem;
+    filter: drop-shadow(5px 5px 15px white);
+}
+
+#Footer_logo_side_Name{
+    font-size: 20px;
+    font-weight: bolder;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Footer_Get_In_Touch span{
+    float: left;
+    font-size: 20px;
+    height: 2.2rem;
+    color: white;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer_logo_bottom_About{
+    margin: 2rem 1rem;
+    color: white;
+}
+
+#Footer_Soical_Icon_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Footer_Soical_Icon_container li{
+    margin: -1rem 2rem;
+}
+
+#Footer_Soical_Icon_container li a{
+    font-size: 24px;
+    color: white;
+}
+
+.footer_icon_get_touch{
+    margin-top: -0.5rem;
+}
+
+.footer_text{
+    color: white;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.footer_Copyright{
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px){
+    .Footer_container{
+        margin-top: 2rem;
+    }
+
+    .Footer_logo{
+        margin: 1.5rem 0;
+    }
+
+    #Footer_Soical_Icon_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #Footer_Soical_Icon_container li{
+        margin: -1rem 0.5rem;
+    }
+}

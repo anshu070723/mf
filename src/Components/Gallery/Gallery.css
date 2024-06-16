@@ -1,0 +1,126 @@
+/* Container for the gallery */
+.Gallery_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Header for the gallery */
+.gallery_header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.gallery_prea {
+  margin: 3rem 10%;
+}
+
+/* List items in the gallery */
+.gallery_col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* Images in the gallery */
+.Gallery_imgs {
+  border-radius: 30px;
+  width: 100%;
+  height: 50vh;
+  max-width: 250px;
+}
+
+/* Date for each image */
+.Gallery_imgs_date {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+/* Modal styles */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+/* Modal content */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* Close button for the modal */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Hover effects for the close button */
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Responsive adjustments for screen width 998px and below */
+@media screen and (max-width: 998px) {
+  .Gallery_imgs {
+    max-width: 220px;
+  }
+}
+
+/* Responsive adjustments for screen width 720px and below */
+@media screen and (max-width: 720px) {
+  .Gallery_imgs {
+    max-width: 200px;
+  }
+}
+
+/* Responsive adjustments for screen width 580px and below */
+@media screen and (max-width: 580px) {
+  .Gallery_imgs {
+    width: 100%;
+  }
+}
+
+/* Responsive adjustments for screen width 501px and below */
+@media screen and (max-width: 501px) {
+  .Gallery_Container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Gallery_imgs {
+    width: 100%;
+  }
+}
+
+/* Additional responsive adjustments for screen width 400px and below */
+@media screen and (max-width: 400px) {
+  .Gallery_imgs {
+    width: 100%;
+    height: auto;
+  }
+  .Gallery_Container {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

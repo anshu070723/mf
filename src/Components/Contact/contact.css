@@ -1,0 +1,119 @@
+.contact_page_container {
+    background-image: url('../Images/bgcontact.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 333;
+}
+
+#contact_page_container_background_box {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 333;
+}
+
+.contact_page_info_container {
+    width: 370px;
+    height: 350px;
+    padding: 0 1rem;
+}
+
+.contact_page_icon {
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    background-color: white;
+}
+
+.contact_page_info {
+    color: white;
+    font-style: italic;
+}
+
+.contact_page_form_container {
+    background-color: white;
+    width: 370px;
+    height: 350px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact_page_heading {
+    font-family: serif;
+}
+
+.contact_page_form_input_box {
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 0.8rem 20px;
+    width: 255px;
+    padding: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_page_form_input_box input {
+    background-color: white;
+    width: 240px;
+    padding: 0.2rem 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.contact_page_btn {
+    border-radius: 5px;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin: 0.1rem 30px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.contact_map {
+    width: 100%;
+    height: 60vh;
+    margin: 5rem 0;
+}
+
+@media screen and (max-width: 720px) {
+    .contact_page_container {
+        height: 150vh;
+    }
+    #contact_page_container_background_box {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contact_page_info_container {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact_page_form_container {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .contact_map{
+        margin: 1rem 0;
+    }
+}

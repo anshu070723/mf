@@ -1,0 +1,444 @@
+/* CasaMelo Image slider start  */
+.Home_page_image_container{
+    width: 100%;
+    height: 80vh; /* Setting height to 80% of the viewport height */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Ensure positioning is relative for absolute children */
+}
+
+.Home_page_image_size {
+    width: 100%;
+    height: 100%; /* Setting height to 100% */
+    display: block;
+}
+
+.slider {
+    width: 100%;
+    height: 100%; /* Setting height to 100% */
+    position: relative; /* Ensure positioning is relative for absolute children */
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.nav-button.left {
+    left: 10px;
+}
+
+.nav-button.right {
+    right: 10px;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: -3.5rem;
+    position: absolute; /* Absolute positioning to overlay radio buttons */
+    bottom: 10px; /* Positioning radio buttons at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.radio-button {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.radio-button.active {
+    background-color: aquamarine;
+}
+
+/* CasaMelo start  */
+
+#Casmelo_container{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.CasaMelo_Section_Container{
+    margin: 8rem 0;
+}
+
+.casaMelo_All_heading{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    color: #c29d51;
+}
+
+/* casaMelo Duplex Villas start */
+
+#casaMelo_Duplex_Villas_Img_Slider{
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-right: 1rem;
+}
+
+/* casaMelo Appartment start */
+.casaMelo_Service_Appartment_Img_Slider{
+    width: 350px;
+    height: 250px;
+    float: right;
+    margin-left: 1rem;
+}
+
+
+/* casamelo Line move start */
+#CasaMelo_Line_Move_Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.CasaMelo_Line_Move_img{
+    width: 50px;
+    height: 50px;
+}
+
+#CasaMelo_Line_Move_Container li{
+    list-style: none;
+}
+
+.CasaMelo_Line_Move_Circle{
+    color: #c29d51;
+}
+
+#CasaMelo_Line_Move{
+    width: 100%;
+    border: 2px solid #c29d51;
+    margin-top: -3.2rem;
+}
+
+.locatin_br{
+    display: none;
+}
+
+/* casamelo location image start */
+.casameloLocationIMg{
+    width: 300px;
+    height: 300px;
+
+}
+
+/* CasaMelo Project Key Features start */
+
+#CasaMelo_Project_Key_Features_Container{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.CasaMelo_Project_Key_Features_Img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    min-width: 190px;
+    max-width: 190px;
+    min-height: 190px;
+    max-height: 190px;
+    margin: 1rem;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+.Key_Features_Name{
+    text-align: center;
+}
+
+/* casaMelo Get price, MASTER PLAN, REQUEST A BROCHURE & TECH SPECIFICATIONS btns start */
+.casaMelo_bottom_All_btn{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.casamelo_bottom_btn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.casamelo_bottom_four_btn{
+    padding: 5px 10px;
+    margin: 1rem 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.casamelo_bottom_four_btn:hover{
+    color: black;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+
+/* casamelo get price Popup.css */
+.Get_Price_Form_popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Above everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Get_Price_Form_popup_container {
+    width: 250px;
+    height: 65vh;
+    background: white;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Get_Price_Form_popup_close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+  }
+  
+  .Get_Price_Form_popup_content {
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+
+.CasaMelo_Get_Price_Form_Container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Get_Price_Form_input_box{
+    border: 1px solid #666;
+    padding: 0.2rem 0.5rem;
+    margin: 15px 0;
+    width: 100%;
+}
+
+#Get_Price_Form_btn{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #c29d51;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* masterPlanPopup.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Above everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-container {
+    width: 80%;
+    height: 80%;
+    background: white;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .popup-content {
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+  .Master_Plan_img{
+    width:33.33%;
+    height: 300px;
+    float: left;
+    padding: 1.5rem;
+  }
+  
+
+/* casamelo TECH SPECIFICATIONS start */
+
+#casamelo_Specification_container{
+    width: 78%;
+    margin: 0 12%;   
+}
+
+#casamelo_Specification_heading{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.casamelo_Specification_container_item{
+    padding: 0.5rem 0;
+}
+
+.casamelo_Specification_container_item b{
+    border-bottom: 1px solid black;
+}
+
+.casamelo_Specification_container_item ol{
+    padding: 1rem;
+}
+
+.Casamelo_SPECIFICATIONS{
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.casamelo_Table_border{
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+@media screen and (max-width: 992px){
+    #Casmelo_container{
+        width: 95%;
+        margin: 0 0 0 5%;
+    }
+
+    .Master_Plan_img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #casaMelo_Duplex_Villas_Img_Slider{
+        width: 300px;
+        height: 250px;
+        float: left;
+        margin-right: 1rem;
+    }
+    
+    /* casaMelo Appartment start */
+    .Casamelo_image_container{
+        width: 300px;
+        height: 250px;
+        float: right;
+        margin-left: 1rem;
+    }
+    .locatin_br{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 580px){
+    .Home_page_image_container{
+        height: auto;
+    }
+    #Casmelo_container{
+        width: 90%;
+        margin: 0 0 0 10%;
+    }
+    #casaMelo_Duplex_Villas_Img_Slider{
+        width: 100%;
+        margin: 2rem 0;
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #casaMelo_Service_Appartment_Img_Slider{
+        height: 250px;
+        width: 100%;
+        float: none;
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #CasaMelo_Line_Move_Container{
+        display: block;
+    }
+    .CasaMelo_Line_Move_img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    #CasaMelo_Line_Move_Container li{
+        margin: 1.5rem 0;
+    }
+
+    .CasaMelo_Line_Move_Circle{
+        display: none;
+    }
+    
+    #CasaMelo_Line_Move{
+        display: none;
+    }
+    .casameloLocationIMg{
+        width: 100%;
+        height: auto;
+    }
+
+    #CasaMelo_Project_Key_Features_Img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        min-width: 140px;
+        max-width: 140px;
+        min-height: 140px;
+        max-height: 140px;
+        margin: 1rem;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

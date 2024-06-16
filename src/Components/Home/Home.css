@@ -1,0 +1,265 @@
+
+/* home about */
+.Home_page_Heading{
+    text-align: center;
+    margin: 2rem 10%;
+}
+
+#Home_page_Paragraph{
+    margin: 0 10%;
+    text-align: justify;
+}
+
+.Home_Heading{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 3rem 0;
+    font-family: Baskerville Old Face;
+}
+
+
+/* Location Image style start */
+
+.location_prea{
+    margin:  -1.5rem 10% 0 10%;
+}
+
+.Location_Images_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 10%;
+    padding: 0.5rem 0;
+}
+
+.Location_img_box{
+    margin: 1.5rem;
+    width: 250px;
+    height: 250px;
+}
+
+.Location_Image{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.Location_img_name{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* Start Home Page Second Income style */
+#Second_Income_header{
+    font-family:Bernard MT Condensed;
+    color: white;
+}
+
+#Second_Income_perag{
+    color: white;
+}
+.Second_Income_Home_Page_Container{
+    background-color:#c29d51;
+    padding:5rem 10%;
+}
+
+.Second_Income_Img_Container{
+    float: right;
+    width: 350px;
+    height: 320px;
+    padding:1rem;
+}
+
+.Second_Income_Img{
+    width: 100%;
+    height: 100%;
+    margin-top: -1.5rem;
+}
+
+/* Start Home Page Project style */
+
+#Home_Page_Project_Paragraph{
+    text-align: center;
+}
+
+.Home_Page_Project_Container{
+    border: 1px solid black;
+    width: 280px;
+}
+
+.Project_Container{
+    margin: 0 10%;
+    padding: 1.5rem;
+}
+
+.Home_Page_Project_img_Container{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Home_Page_Project_img{
+    width: 100%;
+    height: 100%;
+}
+
+.Home_Page_Project_link{
+    border: none;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+}
+
+.CasaMelo_navlink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.Blog_Container{
+    border: 1px solid black;
+    height: 90vh;
+    margin: 3rem 0;
+}
+
+.Blog_img{
+    width: 100%;
+    height: 250px;
+}
+
+.Blog_Container_Infor{
+    padding: 1rem;
+}
+.Blog_btns{
+    padding: 0.5rem 1rem;
+    margin: 1rem ;
+    border: none;
+    font-weight: bolder;
+    background-color: #c29d51;
+}
+.Blog_link{
+    text-decoration: none;
+    color: white;
+}
+
+.Blogs_Container{
+    padding: 7rem 0;
+    margin: 0 10%;
+}
+
+.Home_Blog_btns{
+    display: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem ;
+    border: none;
+    font-weight: bolder;
+    background-color: #c29d51;
+}
+
+@media screen and (max-width: 1145px){
+    .Location_img_box{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .Location_Images_Container{
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .Location_Images_Container{
+        margin: 0 5%;
+    }
+    .Location_img_box{
+        width: 220px;
+        height: 200px;
+        margin: 0 0.5%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .Location_img_box{
+        width: 200px;
+        height: 200px;
+        margin: 0 0.5%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .Location_Images_Container{
+        margin: 0 5%;
+    }
+
+    .Location_img_box{
+        width: 180px;
+        height: 180px;
+    }
+
+    .Second_Income_Home_Page_Container{
+        margin: 5rem 2% 0 10%;
+    }
+
+    .Second_Income_Img_Container{
+        width: 280px;
+        padding: 0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 635px){
+    .Location_img_box{
+        width: 60%;
+        height: auto;
+        margin: 2rem 0.5%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    #Home_page_Paragraph{
+        margin: 0 2% 0 10%;
+    }
+
+
+    .Location_Images_Container{
+        margin: 1rem 2% 0 10%;
+        padding: 0 0;
+    }
+
+    .Location_img_box{
+        width: 100%;
+        height: 100%;
+        margin: 1rem 0;
+    }
+
+    .Second_Income_Home_Page_Container{
+        margin: 5rem 2% 0 10%;
+    }
+    
+    .Second_Income_Img_Container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .Location_img_box{
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+    }
+}
